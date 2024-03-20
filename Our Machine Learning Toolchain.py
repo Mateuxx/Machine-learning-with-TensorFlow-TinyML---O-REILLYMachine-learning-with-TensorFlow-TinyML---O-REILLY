@@ -34,3 +34,7 @@ y_values = np.sin(x_values)
 plt.plot(x_values, y_values,'b.')
 plt.show()
 
+#Adding some noise 
+
+# Add a smal random number to each y value 
+y_values += 0.1*b
